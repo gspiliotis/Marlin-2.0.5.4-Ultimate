@@ -2833,7 +2833,7 @@
 /**
  * User-defined menu items that execute custom GCode
  */
-//#define CUSTOM_USER_MENUS //Customized DBP
+#define CUSTOM_USER_MENUS //Customized DBP
 #if ENABLED(CUSTOM_USER_MENUS)
   #define USER_SCRIPT_DONE "M117 Done" //Customized DBP
   //#define USER_SCRIPT_AUDIBLE_FEEDBACK Customized DBP
